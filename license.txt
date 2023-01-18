@@ -1,5 +1,6 @@
 Code license:
 
+Part of code is taken from MineClone 2, licensed under GPL3.0
 
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
