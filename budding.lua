@@ -9,7 +9,7 @@ local all_directions = {
 
 minetest.register_abm({
     label = "Amethyst cluster growth",
-    nodenames = "amethyst:amethyst_budding",
+    nodenames = "amethyst_new:amethyst_budding",
     interval = 240,
     chance = 1,
     action = function(pos)
@@ -19,11 +19,11 @@ minetest.register_abm({
         local param2 = minetest.dir_to_wallmounted(vector.subtract(pos, check_pos))
         local new_node
         if check_node_name == "air" then
-            new_node = "amethyst:cluster_small"
-        else if check_node_name == "amethyst:cluster_small" then
-            new_node = "amethyst:cluster_medium"
-        else if check_node_name == "amethyst:cluster_medium" then
-            new_node = "amethyst:cluster_large"
+            new_node = "amethyst_new:cluster_small"
+        else if check_node_name == "amethyst_new:cluster_small" then
+            new_node = "amethyst_new:cluster_medium"
+        else if check_node_name == "amethyst_new:cluster_medium" then
+            new_node = "amethyst_new:cluster_large"
         else return end
         end
         end

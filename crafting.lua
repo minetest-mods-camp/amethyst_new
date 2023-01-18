@@ -1,66 +1,66 @@
 minetest.register_craft({
-    output = "amethyst:basalt_block 9",
+    output = "amethyst_new:basalt_block 9",
     recipe = {
-        {"amethyst:basalt", "amethyst:basalt", "amethyst:basalt"},
-        {"amethyst:basalt", "amethyst:basalt", "amethyst:basalt"},
-        {"amethyst:basalt", "amethyst:basalt", "amethyst:basalt"},
+        {"amethyst_new:basalt", "amethyst_new:basalt", "amethyst_new:basalt"},
+        {"amethyst_new:basalt", "amethyst_new:basalt", "amethyst_new:basalt"},
+        {"amethyst_new:basalt", "amethyst_new:basalt", "amethyst_new:basalt"},
     },
 })
 
 minetest.register_craft({
-    output = "amethyst:calcite_block 9",
+    output = "amethyst_new:calcite_block 9",
     recipe = {
-        {"amethyst:calcite", "amethyst:calcite", "amethyst:calcite"},
-        {"amethyst:calcite", "amethyst:calcite", "amethyst:calcite"},
-        {"amethyst:calcite", "amethyst:calcite", "amethyst:calcite"},
+        {"amethyst_new:calcite", "amethyst_new:calcite", "amethyst_new:calcite"},
+        {"amethyst_new:calcite", "amethyst_new:calcite", "amethyst_new:calcite"},
+        {"amethyst_new:calcite", "amethyst_new:calcite", "amethyst_new:calcite"},
     },
 })
 
 minetest.register_craft({
-    output = "amethyst:basalt_brick 4",
+    output = "amethyst_new:basalt_brick 4",
     recipe = {
-        {"amethyst:basalt", "amethyst:basalt"},
-        {"amethyst:basalt", "amethyst:basalt"},
+        {"amethyst_new:basalt", "amethyst_new:basalt"},
+        {"amethyst_new:basalt", "amethyst_new:basalt"},
     },
 })
 
 minetest.register_craft({
-    output = "amethyst:calcite_brick 4",
+    output = "amethyst_new:calcite_brick 4",
     recipe = {
-        {"amethyst:calcite", "amethyst:calcite"},
-        {"amethyst:calcite", "amethyst:calcite"},
+        {"amethyst_new:calcite", "amethyst_new:calcite"},
+        {"amethyst_new:calcite", "amethyst_new:calcite"},
     },
 })
 
 minetest.register_craft({
-    output = "amethyst:checkerboard 4",
+    output = "amethyst_new:checkerboard 4",
     recipe = {
-        {"amethyst:calcite", "amethyst:basalt"},
-        {"amethyst:basalt", "amethyst:calcite"},
+        {"amethyst_new:calcite", "amethyst_new:basalt"},
+        {"amethyst_new:basalt", "amethyst_new:calcite"},
     },
 })
 
 minetest.register_craft({
-    output = "amethyst:amethyst_shard 9",
+    output = "amethyst_new:amethyst_shard 9",
     recipe = {
-        {"amethyst:amethyst"},
+        {"amethyst_new:amethyst"},
     },
 })
 
 minetest.register_craft({
-    output = "amethyst:amethyst",
+    output = "amethyst_new:amethyst",
     recipe = {
-        {"amethyst:amethyst_shard", "amethyst:amethyst_shard", "amethyst:amethyst_shard"},
-        {"amethyst:amethyst_shard", "amethyst:amethyst_shard", "amethyst:amethyst_shard"},
-        {"amethyst:amethyst_shard", "amethyst:amethyst_shard", "amethyst:amethyst_shard"},
+        {"amethyst_new:amethyst_shard", "amethyst_new:amethyst_shard", "amethyst_new:amethyst_shard"},
+        {"amethyst_new:amethyst_shard", "amethyst_new:amethyst_shard", "amethyst_new:amethyst_shard"},
+        {"amethyst_new:amethyst_shard", "amethyst_new:amethyst_shard", "amethyst_new:amethyst_shard"},
     },
 })
 
 minetest.register_craft({
-    output = "amethyst:tinted_glass 2",
+    output = "amethyst_new:tinted_glass 2",
     recipe = {
-        {"", "amethyst:amethyst_shard", ""},
-        {"amethyst:amethyst_shard", "default:glass", "amethyst:amethyst_shard"},
-        {"", "amethyst:amethyst_shard", ""},
+        {"", "amethyst_new:amethyst_shard", ""},
+        {"amethyst_new:amethyst_shard", "default:glass", "amethyst_new:amethyst_shard"},
+        {"", "amethyst_new:amethyst_shard", ""},
     },
 })
