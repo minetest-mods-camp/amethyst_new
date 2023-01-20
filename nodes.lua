@@ -71,6 +71,11 @@ minetest.register_node("amethyst_new:cluster_small", {
     light_source = 2,
     paramtype = "light",
     paramtype2 = "wallmounted",
+    walkable = false,
+    selection_box = {
+        type = "fixed",
+        fixed = {-4/16, -7/16, -4/16, 4/16, -3/16, 4/16},
+    },
     groups = {cracky = 3},
     drop = {
         max_items = 1,
@@ -90,6 +95,11 @@ minetest.register_node("amethyst_new:cluster_medium", {
     light_source = 4,
     paramtype = "light",
     paramtype2 = "wallmounted",
+    walkable = false,
+    selection_box = {
+        type = "fixed",
+        fixed = {-5/16, -8/16, -5/16, 5/16, -2/16, 5/16},
+    },
     groups = {cracky = 3},
     drop = {
         max_items = 1,
@@ -109,6 +119,11 @@ minetest.register_node("amethyst_new:cluster_large", {
     light_source = 6,
     paramtype = "light",
     paramtype2 = "wallmounted",
+    walkable = false,
+    selection_box = {
+        type = "fixed",
+        fixed = {-5/16, -8/16, -5/16, 5/16, 4/16, 5/16},
+    },
     groups = {cracky = 3},
     drop = "amethyst_new:amethyst_shard",
     sounds = default.node_sound_glass_defaults(),
