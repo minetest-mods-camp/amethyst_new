@@ -190,6 +190,11 @@ if minetest.get_modpath("stairs") then
     default.node_sound_stone_defaults())
 end
 
+if minetest.get_modpath("walls") then
+    walls.register("amethyst_new:basalt_brick_wall", "Basalt Brick Wall", "amethyst_basalt_brick.png", "amethyst_new:basalt_brick", default.node_sound_stone_defaults())
+    walls.register("amethyst_new:calcite_brick_wall", "Calcite Brick Wall", "amethyst_calcite_brick.png", "amethyst_new:calcite_brick", default.node_sound_stone_defaults())
+end
+
 minetest.register_craftitem("amethyst_new:amethyst_shard", {
     description = "Amethyst Shard",
     inventory_image = "amethyst_shard.png",
